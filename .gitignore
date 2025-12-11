@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Claude AI
+.claude/
+
+# Project Rubric
+test.pdf
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+
+# MongoDB data directory (NO subir datos de MongoDB)
+mongodb_data/
+data/db/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Archivos temporales
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Archivos generados (visualizaciones y simulaciones)
+# NOTA: Si quieres incluir ejemplos, comenta estas líneas
+data/processed/*.png
+data/processed/*.csv
+data/processed/*.xlsx
+
+# Redis dumps (si los hubiera)
+dump.rdb
+*.rdb
+
+# Archivos grandes opcionales
+# Descomenta si no quieres subir el CSV de Amazon (es grande)
+# data/raw/amazon.csv
